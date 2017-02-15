@@ -2,8 +2,8 @@
 $(document).ready(function() {
   // displays color blocks on page load
   $('.colorBlock').css("display", "inline-block");
-
-  //generate random number and check if equal to block id 
+  alert('Please select a color.')
+  //generate random number and check if equal to block id
   var genNumber = randomNumber(1, 4)
   $('div').on('click', function() {
     if ($(this).data().number == genNumber) {
