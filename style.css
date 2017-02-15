@@ -4,7 +4,11 @@
 div{
   height: 150px;
   width: 150px;
-  display: none;
+  display: inline-block;
+}
+
+button {
+  display: block;
 }
 
 #red {
@@ -21,4 +25,16 @@ div{
 
 #blue {
   background-color: #0000ff;
+}
+
+#pink {
+  background-color: #cc00cc;
+}
+
+#orange {
+  background-color: #ffaf00;
+}
+
+#aqua {
+  background-color: #09c0ff;
 }
